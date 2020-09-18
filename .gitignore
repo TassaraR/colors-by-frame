@@ -1,3 +1,6 @@
 .ipynb_checkpoints/
 old_tests/
-read_video.ipynb
+build/
+deprecated/
+setup.py
+
