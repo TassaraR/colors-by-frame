@@ -23,8 +23,8 @@ def img_from_frames(path, output_path, int user_height, int user_width, bint ver
     #remainder_frames = length % user_width
     
     print(f"\nTotal Frames (Aprox): {length}\tFrames grouping: {avg_group_size}\n")
-    print(f"Input Frame Data:\n\tHeight: {height}\n\tWidth: {Width}\n\tfps: {fps:.2f}\n")
-    print(f"Output Img:\n\tHeight: {user_height}\n\tWidth: {user_Width}\n")
+    print(f"Input Frame Data:\n\tHeight: {height}\n\tWidth: {width}\n\tfps: {fps:.2f}\n")
+    print(f"Output Img:\n\tHeight: {user_height}\n\tWidth: {user_width}\n")
     
     cdef np.ndarray img_shape = np.zeros((height,user_width,3), 
                                          dtype = DTYPE)
