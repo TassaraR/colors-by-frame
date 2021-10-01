@@ -1,5 +1,5 @@
 # colors_by_frame
-Creates images from videos by computing the average colors by its frames
+Creates images from videos by computing the average color of each frame
 
 ### Usage:
 ```
